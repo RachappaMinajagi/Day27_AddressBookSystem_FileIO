@@ -1,5 +1,4 @@
 package addressBookSystemFileIO;
-
 /*
 * UC1:- Ability to create a Contacts in Address Book with first and last names,
 * address, city, state, zip, phone number and email...
@@ -19,6 +18,7 @@ package addressBookSystemFileIO;
 *UC8:-Ability to search Person in a City or State across the multiple AddressBook
 *UC9:-Ability to view Persons by City or State
 *UC10:-Ability to get number of contact persons i.e.count by City or State
+*UC11:-Ability to sort the entries in the address book alphabetically by Person’s name
 */
 import java.util.ArrayList;
 import java.util.Scanner;
