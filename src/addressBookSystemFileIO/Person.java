@@ -1,8 +1,8 @@
 package addressBookSystemFileIO;
 
-/*
-* create a Person Class and  details for the person
-*/
+/**
+ * create a Person Class and details for the person
+ */
 public class Person {
 	private String firstName;
 	private String lastName;
@@ -12,6 +12,10 @@ public class Person {
 	private int zip;
 	private long phoneNumber;
 	private String email;
+
+	/**
+	 * Create a method For Person and passing the Parameters
+	 */
 
 	Person(String firstName, String lastName, String address, String city, String state, int zip, long phoneNumber,
 			String email) {
@@ -26,6 +30,10 @@ public class Person {
 		this.setEmail(email);
 	}
 
+	/**
+	 * Create a getter and setter method firstName
+	 */
+
 	public String getFirstName() {
 		return firstName;
 	}
@@ -33,6 +41,10 @@ public class Person {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+
+	/**
+	 * Create a getter and setter method LastName
+	 */
 
 	public String getLastName() {
 		return lastName;
@@ -42,6 +54,10 @@ public class Person {
 		this.lastName = lastName;
 	}
 
+	/**
+	 * Create a getter and setter method Address
+	 */
+
 	public String getAddress() {
 		return address;
 	}
@@ -49,6 +65,10 @@ public class Person {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+
+	/**
+	 * Create a getter and setter method City
+	 */
 
 	public String getCity() {
 		return city;
@@ -58,6 +78,10 @@ public class Person {
 		this.city = city;
 	}
 
+	/**
+	 * Create a getter and setter method State
+	 */
+
 	public String getState() {
 		return state;
 	}
@@ -65,6 +89,10 @@ public class Person {
 	public void setState(String state) {
 		this.state = state;
 	}
+
+	/**
+	 * Create a getter and setter method ZipCode
+	 */
 
 	public int getZip() {
 		return zip;
@@ -74,6 +102,10 @@ public class Person {
 		this.zip = zip;
 	}
 
+	/**
+	 * Create a getter and setter method PhoneNumber
+	 */
+
 	public long getPhoneNumber() {
 		return phoneNumber;
 	}
@@ -81,6 +113,10 @@ public class Person {
 	public void setPhoneNumber(long phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
+
+	/**
+	 * Create a getter and setter method Email
+	 */
 
 	public String getEmail() {
 		return email;
@@ -94,6 +130,9 @@ public class Person {
 
 	}
 
+	/**
+	 * Create a Method for Person and passing Parameter of the person Details
+	 */
 	public Person(String firstName2, String lastName2, String address2, String city2, String state2, String email2,
 			int zip2, long phoneNumber2) {
 		this.firstName = firstName2;
@@ -104,12 +143,9 @@ public class Person {
 		this.zip = zip2;
 		this.phoneNumber = phoneNumber2;
 		this.email = email2;
-		// TODO Auto-generated constructor stub
+
 	}
 
-	/**
-	 * created method print to display the data
-	 */
 	@Override
 	public String toString() {
 		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
